@@ -1,0 +1,82 @@
+.text_us {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 4rem;
+}
+.need_text {
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.choose_us_section {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 3rem;
+  justify-items: center;
+}
+
+.choose_us_container {
+  min-width: 20px;
+  height: 16.25rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.choose_us_img {
+  width: 3.313rem;
+  height: 3.375rem;
+  margin: 0.5rem;
+}
+
+.tech_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.choose_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 1rem 1.5rem;
+}
+.reddish_bg {
+  background-color: #fff3eb;
+}
+.navy_bg {
+  background-color: #ecedff;
+}
+.light_blue_bg {
+  background-color: #ffecf1;
+}
+.brownish_bg {
+  background-color: #f6f6f6;
+}
+.pinkish_bg {
+  background-color: #fffaec;
+}
+.greenish_bg {
+  background-color: #fff3eb;
+}
+.grey_bg {
+  background-color: #ecedff;
+}
+.white_bg {
+  background-color: #ffecf1;
+}
+.brown_bg {
+  background-color: #eefff3;
+}
