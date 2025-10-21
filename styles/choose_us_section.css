@@ -4,7 +4,7 @@
   font-size: 40px;
   letter-spacing: 0%;
   text-align: center;
-  padding: 4rem;
+  margin-bottom: 3rem;
 }
 .need_text {
   font-family: "Roboto" sans-serif;
@@ -12,11 +12,12 @@
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  padding: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .choose_us_section {
   display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   padding: 1rem 3rem;
   justify-items: center;
@@ -34,7 +35,6 @@
 .choose_us_img {
   width: 3.313rem;
   height: 3.375rem;
-  margin: 0.5rem;
 }
 
 .tech_text {
@@ -51,7 +51,6 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  padding: 1rem 1.5rem;
 }
 .reddish_bg {
   background-color: #fff3eb;
@@ -71,12 +70,19 @@
 .greenish_bg {
   background-color: #fff3eb;
 }
-.grey_bg {
-  background-color: #ecedff;
+.brown_bg {
+  background-color: #eefff3;
 }
 .white_bg {
   background-color: #ffecf1;
 }
-.brown_bg {
-  background-color: #eefff3;
+.grey_bg {
+  background-color: #ecedff;
+}
+
+@media (min-width: 1200px) {
+  .choose_us_section {
+    display: flex;
+    flex-direction: row;
+  }
 }
