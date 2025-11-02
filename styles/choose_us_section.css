@@ -4,7 +4,7 @@
   font-size: 40px;
   letter-spacing: 0%;
   text-align: center;
-  margin-bottom: 3rem;
+  padding: 5rem;
 }
 .need_text {
   font-family: "Roboto" sans-serif;
@@ -79,10 +79,86 @@
 .grey_bg {
   background-color: #ecedff;
 }
+.bonik_container {
+  flex-direction: column;
+  align-items: center;
+}
+.bonik_img_container {
+  width: 100%;
+}
+.bonik_img {
+  width: 100%;
+}
+.text_need {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.apply_btn {
+  border: 1px solid #e24329;
+  border-radius: 1.563rem;
+  background-color: #e24329;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  padding: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.bonik_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.still_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  padding: 2rem;
+}
+.source_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #444b51;
+  line-height: 26px;
+  text-align: center;
+}
+.carbon_add_container {
+  display: flex;
+  align-items: center;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+}
 
 @media (min-width: 1200px) {
   .choose_us_section {
     display: flex;
     flex-direction: row;
+  }
+  .bonik_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8rem 9.563rem;
+  }
+  .bonik_text {
+    text-align: start;
+  }
+  .text_need {
+    text-align: start;
+  }
+
+  .apply_btn {
+    padding: 1rem;
   }
 }
