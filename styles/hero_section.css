@@ -134,7 +134,7 @@ input::placeholder {
     align-items: center;
     background-color: #fff;
     border-radius: 1rem;
-    padding: 1.25rem 3.125rem 1.25rem 1.25rem;
+    padding: 1.25rem 1rem;
     min-width: 250px;
   }
 
